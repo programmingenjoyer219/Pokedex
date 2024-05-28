@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pokémon Stats Card</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+		<!-- Pokémon Stats Card -->
+		<div class="w-72 h-80 bg-white rounded-lg shadow-lg p-4">
+			<!-- Pokémon Sprite -->
+			<div class="flex justify-center mb-4">
+				<img
+					src="./src/assets/sprites/1.png"
+					alt="Bulbasaur"
+					class="w-12 h-12"
+				/>
+			</div>
+
+			<!-- Stats -->
+			<div class="space-y-2">
+				<!-- HP -->
+				<div class="flex items-center">
+					<img src="./src/assets/health.png" alt="HP" class="w-6 h-6 mr-2" />
+					<span class="text-black font-bold w-10">45</span>
+					<div class="w-full bg-yellow-200 rounded-full h-2.5 ml-2">
+						<div
+							class="bg-yellow-400 h-2.5 rounded-full"
+							style="width: 45%"
+						></div>
+					</div>
+				</div>
+
+				<!-- Attack -->
+				<div class="flex items-center">
+					<img src="./src/assets/sword.png" alt="Attack" class="w-6 h-6 mr-2" />
+					<span class="text-black font-bold w-10">49</span>
+					<div class="w-full bg-yellow-200 rounded-full h-2.5 ml-2">
+						<div
+							class="bg-yellow-400 h-2.5 rounded-full"
+							style="width: 49%"
+						></div>
+					</div>
+				</div>
+
+				<!-- Defense -->
+				<div class="flex items-center">
+					<img
+						src="./src/assets/shield.png"
+						alt="Defense"
+						class="w-6 h-6 mr-2"
+					/>
+					<span class="text-black font-bold w-10">49</span>
+					<div class="w-full bg-yellow-200 rounded-full h-2.5 ml-2">
+						<div
+							class="bg-yellow-400 h-2.5 rounded-full"
+							style="width: 49%"
+						></div>
+					</div>
+				</div>
+
+				<!-- Special Attack -->
+				<div class="flex items-center">
+					<img
+						src="./src/assets/sword-red.png"
+						alt="Special Attack"
+						class="w-6 h-6 mr-2"
+					/>
+					<span class="text-red-500 font-bold w-10">65</span>
+					<div class="w-full bg-yellow-200 rounded-full h-2.5 ml-2">
+						<div
+							class="bg-yellow-400 h-2.5 rounded-full"
+							style="width: 65%"
+						></div>
+					</div>
+				</div>
+
+				<!-- Special Defense -->
+				<div class="flex items-center">
+					<img
+						src="./src/assets/shield-red.png"
+						alt="Special Defense"
+						class="w-6 h-6 mr-2"
+					/>
+					<span class="text-red-500 font-bold w-10">65</span>
+					<div class="w-full bg-yellow-200 rounded-full h-2.5 ml-2">
+						<div
+							class="bg-yellow-400 h-2.5 rounded-full"
+							style="width: 65%"
+						></div>
+					</div>
+				</div>
+
+				<!-- Speed -->
+				<div class="flex items-center">
+					<img src="./src/assets/speed.png" alt="Speed" class="w-6 h-6 mr-2" />
+					<span class="text-black font-bold w-10">45</span>
+					<div class="w-full bg-yellow-200 rounded-full h-2.5 ml-2">
+						<div
+							class="bg-yellow-400 h-2.5 rounded-full"
+							style="width: 45%"
+						></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

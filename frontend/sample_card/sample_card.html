@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pokémon Card</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+		<!-- Pokémon Card -->
+		<div
+			class="w-[280px] h-[320px] bg-white rounded-lg shadow-lg p-4 flex flex-col items-center"
+		>
+			<!-- Pokémon Image -->
+			<img
+				src="./src/assets/official-artwork/1.png"
+				alt="Bulbasaur"
+				class="w-32 h-32 mb-4"
+			/>
+
+			<!-- Pokémon Name with Pokéball Icons -->
+			<div class="flex items-center mb-4">
+				<img
+					src="./src/assets/pokemon-card-bg-red.png"
+					alt="Pokeball"
+					class="w-4 h-4 mx-2"
+				/>
+				<h2 class="text-xl font-bold">Bulbasaur</h2>
+				<img
+					src="./src/assets/pokemon-card-bg-red.png"
+					alt="Pokeball"
+					class="w-4 h-4 mx-2"
+				/>
+			</div>
+
+			<!-- Pokémon Types -->
+			<div class="flex mb-4">
+				<div
+					class="flex items-center bg-purple-200 rounded-full px-3 py-1 mx-1"
+				>
+					<img
+						src="./src/assets/pokemon types/Poison.svg"
+						alt="Poison"
+						class="w-4 h-4 mr-1"
+					/>
+					<span class="text-sm font-semibold text-purple-700">Poison</span>
+				</div>
+				<div class="flex items-center bg-green-200 rounded-full px-3 py-1 mx-1">
+					<img
+						src="./src/assets/pokemon types/Grass.svg"
+						alt="Grass"
+						class="w-4 h-4 mr-1"
+					/>
+					<span class="text-sm font-semibold text-green-700">Grass</span>
+				</div>
+			</div>
+
+			<!-- Pokémon Weight and Height -->
+			<div class="flex justify-between w-full px-4">
+				<div class="flex items-center">
+					<img
+						src="./src/assets/weight-black.png"
+						alt="Weight"
+						class="w-4 h-4 mr-1"
+					/>
+					<span class="text-sm font-semibold">6.9 Kg</span>
+				</div>
+				<div class="flex items-center">
+					<img
+						src="./src/assets/ruler-black.png"
+						alt="Height"
+						class="w-4 h-4 mr-1"
+					/>
+					<span class="text-sm font-semibold">0.7 m</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
