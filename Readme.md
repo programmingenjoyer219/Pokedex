@@ -57,6 +57,8 @@ This guide will walk you through setting up and running the Pokedex application 
 
 - Inspiration: [Pokedex Explore](https://pokedexplore.vercel.app/)
 - Pokemon Data (JSON): [GitHub - Purukitto/pokemon-data.json](https://github.com/Purukitto/pokemon-data.json)
+- MongoDB Tutorial: [Bro Code](https://www.youtube.com/watch?v=c2M-rlkkT5o)
+- Efficient Way To Build Websites: [Sajid](https://www.youtube.com/watch?v=OjEg0IBR_ak)
 
 **Learning Resources (for advanced features):**
 
