@@ -57,8 +57,6 @@ This guide will walk you through setting up and running the Pokedex application 
 
 - Inspiration: [Pokedex Explore](https://pokedexplore.vercel.app/)
 - Pokemon Data (JSON): [GitHub - Purukitto/pokemon-data.json](https://github.com/Purukitto/pokemon-data.json)
-- MongoDB Tutorial: [Bro Code](https://www.youtube.com/watch?v=c2M-rlkkT5o)
-- Efficient Way To Build Websites: [Sajid](https://www.youtube.com/watch?v=OjEg0IBR_ak)
 
 **Learning Resources (for advanced features):**
 
@@ -66,3 +64,5 @@ This guide will walk you through setting up and running the Pokedex application 
 - Importing Images Dynamically in React: [YouTube](https://www.youtube.com/watch?v=7EFZIe_Cpv8)
 - Card Flip Implementation Made Easy: [YouTube](https://www.youtube.com/watch?v=Kc8P2F1WmIc)
 - Auto Scroll To A Particular Section: [YouTube](https://www.youtube.com/watch?v=-Xjwe4IwTMM)
+- MongoDB Tutorial: [YouTube](https://www.youtube.com/watch?v=c2M-rlkkT5o)
+- Efficient Way To Build Websites: [YouTube](https://www.youtube.com/watch?v=OjEg0IBR_ak)
